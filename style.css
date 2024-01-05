@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('fon.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: rgb(123, 74, 136);
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3ba7af;
+    font-weight: bold;
+    font-size: 52px;
+}
+section {
+    display: none;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Стили для кнопок */
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Стили для ссылок-кнопок в меню */
+nav ul li a.button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.object-item h2 {
+    color: #333;
+   
+}
+
+/* Стили для информационных кнопок */
+.object-item button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Стили для футера */
+footer p {
+    margin: 0;
+}
+
+header img.logo {
+    position: absolute;
+    top: 50%;
+    right: 20px; 
+    transform: translateY(-50%); 
+    max-width: 400px; 
+    max-height: 400px; 
+    background-color: transparent;
+}
+
+/* Стили для центрированных ссылок в меню */
+nav ul.center-links {
+    text-align: center;
+}
+
+/* Стили для фона активной ссылки в меню */
+nav ul li a.active {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Стили для активной ссылки на объект в меню */
+nav ul li.active-link a {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+h1 {
+    animation: myAnim 5s linear alternate infinite;
+   }   
+@keyframes myAnim {
+    from {
+      margin-left: -45;
+    }
+    to {
+      margin-left: 50px;
+    }
+   }
+   

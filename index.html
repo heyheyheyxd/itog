@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пиццерия Онлайн</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Добро пожаловать в Mamma pizza!</h1>
+        <img src="logo.png" alt="Логотип" class="logo">
+    </header>
+
+    <nav>
+        <ul>
+            <li class="hidden-link" id="pizza-link"><a href="pizza.html">Пицца</a></li>
+            <li class="hidden-link" id="drinks-link"><a href="drinks.html">Напитки</a></li>
+            <li class="hidden-link" id="specials-link"><a href="specials.html">Акции</a></li>
+            
+        </ul>
+    </nav>
+
+    <section id="pizza-section" hidden>
+        <object type="text/html" data="pizza.html" style="width:100%; height:100vh;"></object>
+    </section>
+
+    <section id="drinks-section">
+        <object type="text/html" data="drinks.html" style="width:100%; height:100vh;"></object>
+    </section>
+
+    <section id="specials-section">
+        <object type="text/html" data="specials.html" style="width:100%; height:100vh;"></object>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mamma pizza. Все права защищены.</p>
+    </footer>
+</body>
+</html>
